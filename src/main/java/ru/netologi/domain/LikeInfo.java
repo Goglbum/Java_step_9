@@ -1,22 +1,40 @@
 package ru.netologi.domain;
 
 public class LikeInfo {
-    private int quantityLike;
-    private User user;
+    private int count;
+    private int userLike;
+    private int canLike;
+    private int canPublish;
 
-    public int getQuantityLike() {
-        return quantityLike;
+    public int getCount() {
+        return count;
     }
 
-    public void setQuantityLike(int quantityLike) {
-        this.quantityLike = quantityLike;
+    public void setCount(int count) {
+        this.count = count;
     }
 
-    public User getUser() {
-        return user;
+    public int getUserLike() {
+        return userLike;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public void setUserLike(int userLike) {
+        this.userLike = userLike;
+    }
+
+    public int getCanLike() {
+        return canLike;
+    }
+
+    public void setCanLike(int canLike) {
+        this.canLike = canLike;
+    }
+
+    public int getCanPublish() {
+        return canPublish;
+    }
+
+    public void setCanPublish(int canPublish) {
+        this.canPublish = canPublish;
     }
 }

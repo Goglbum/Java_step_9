@@ -1,13 +1,22 @@
 package ru.netologi.domain;
 
 public class RepostInfo {
-    private int quantityRepost;
+    private int count;
+    private int userReposted;
 
-    public int getQuantityRepost() {
-        return quantityRepost;
+    public int getCount() {
+        return count;
     }
 
-    public void setQuantityRepost(int quantityRepost) {
-        this.quantityRepost = quantityRepost;
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+    public int getUserReposted() {
+        return userReposted;
+    }
+
+    public void setUserReposted(int userReposted) {
+        this.userReposted = userReposted;
     }
 }
